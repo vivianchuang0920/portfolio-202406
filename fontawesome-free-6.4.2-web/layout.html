@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: antiquewhite;
+        }
+
+        .wrap {
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            overflow: hidden;
+            background-image: url("./img/banner_bg.jpg");
+        }
+
+        .header hl {
+            float: left;
+        }
+
+        .header ul {
+            float: right;
+            list-style: none;
+            margin-top: 50px;
+            margin-right: 50px;
+        }
+
+        .header ul li {
+            display: inline;
+            margin-left: 10px
+        }
+
+        .header ul li a {
+            color: white;
+        }
+
+        .nav {
+            background-color: rgb(66, 54, 27);
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+
+        .nav ul {
+            list-style: none;
+        }
+
+        .nav ul li {
+            display: inline;
+        }
+
+        .nav ul li a {
+            color: #333333;
+            text-decoration: none;
+            background-color: antiquewhite;
+            padding: 10px 20px;
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+        .nav ul li a :hover{
+            color: white;          
+            background-color: rgb(225, 94, 0);}
+            .content .txt{
+                background-color: white;
+                padding:20px 200px;
+                text-align: justify;
+                font-size: 20px;
+                line-height: 2;
+            }
+            
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            <h1>
+                <img src="./img/logo.png" alt="">
+                <ul>
+                    <li><a href="#">註冊</a></li>
+                    <li><a href="#">登入</a></li>
+                    <li><a href="#">語系</a></li>
+                </ul>
+            </h1>
+        </div>
+
+        <div class="nav">
+            <ul>
+                <li><a href="#">MENU1</a></li>
+                <li><a href="#">MENU2</a></li>
+                <li><a href="#">MENU3</a></li>
+                <li><a href="#">MENU4</a></li>
+                <li><a href="#">MENU5</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <P>
+                <img src="./img/ad_img.jpg" alt="">
+            </P>
+            <p class="txt">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe delectus aperiam nostrum repellat? Provident nam, rem iste
+                et, nulla perspiciatis sint explicabo exercitationem totam accusamus illo iure numquam voluptatem esse ullam
+                officia rerum? Numquam adipisci ab veritatis. Enim velit dolorem consectetur, ea repellat explicabo ratione
+                voluptatem fugit soluta! Assumenda, aliquam.
+            </p>
+        </div>
+        <div class="info">
+            <div class="box">
+                <img src="./img/img1.jpg" alt="">
+                <h4>古蹟風華</h4>
+            </div>
+            <div class="box">
+                <img src="./img/img2.jpg" alt="">
+                <h4>人文情懷</h4>
+            </div>
+            <div class="box">
+                <img src="./img/img3.jpg" alt="">
+                <h4>美食饗宴</h4>
+            </div>
+        </div>
+        <div class="footer">copyright &copy; 2024.05 vivi版權所有</div>
+    </div>
+</body>
+
+</html>
