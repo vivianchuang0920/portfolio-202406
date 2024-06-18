@@ -35,14 +35,15 @@ section{
             text-align: center;
 }
 #home img{
-    width: 80%;
+    width: 75%;
 }
 #about img{
-    width: 50%;
+    width: 55%;
 }
-#works .row .box{
-                 float: left;
+#works .row .box img{
+                 /* float: left; */
                  display: inline-block;
                  border-radius: 50%;
+                 width: 180px;
                  margin: 20px;
 }
